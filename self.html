@@ -6,28 +6,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-danger navbar-expand-lg">
-        <a href="./index.html" class="navbar-brand">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg" style="padding: 7%; background-image: url('https://www.sikshapedia.com/public/data/colleges/st-xaviers-college-mumbai-maharashtra/st-xaviers-college-mumbai-maharashtra-banner.webp');
+background-size: ;
+background-position: center;
+background-repeat:no-repeat;">
+        <a href="./index.html" class="navbar-brand text-white">
             <h1>St.Xavier's College</h1>
         </a>
         <div class="ml-auto">
             <ul class="navbar-nav">
-                <li><a href="./index.html" class="nav-link">Home</a></li>
-                <li><a href="./about.html" class="nav-link">About</a></li>
-                <li><a href="./services.html" class="nav-link">Services</a></li>
-                <li><a href="./employees.html" class="nav-link">Employees</a></li>
-                <li><a href="./contact.html" class="nav-link">Contact</a></li>
-                <li><a href="./login.html" class="nav-link">Login</a></li>
+                <li><a href="./index.html" class="nav-link text-white">Home</a></li>
+                <li><a href="./about.html" class="nav-link text-white">About</a></li>
+                <li><a href="./services.html" class="nav-link text-white">Services</a></li>
+                <li><a href="./employees.html" class="nav-link text-white">Employees</a></li>
+                <li><a href="./contact.html" class="nav-link text-white">Contact</a></li>
+                <li><a href="./login.html" class="nav-link text-white">Login</a></li>
             </ul>
         </div>
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-5">
                 <!-- Contact Form -->
                 <div class="card">
                     <div class="card-header bg-warning text-black">
-                        <h3 class="card-title" style="text-align: center;">Get In Touch</h3>
+                        <h3 class="card-title" style="text-align: center;">We are happy to help you</h3>
                         <p class="card-text"
                             style="background-color: aquamarine; font-weight: 600; font-style: italic; text-align: center;">
                             Submit Course Inquiry</p>
@@ -35,12 +38,12 @@
                     <div class="card-body">
                         <form action="/login">
                             <div class="form-group">
-                                <label>Email Id:</label>
-                                <input type="text" class="form-control" required />
+                                <label>Email:</label>
+                                <input type="text" class="form-control" placeholder="Enter email address" required />
                             </div>
                             <div class="form-group">
                                 <label>Mobile:</label>
-                                <input type="number" class="form-control" placeholder="10 digits"
+                                <input type="tel" class="form-control" placeholder="Enter phone number"
                                     pattern="[6-9][0-9]{9}" required>
                             </div>
                             <div class="form-group">
@@ -68,8 +71,36 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                <h3>Visit us:</h3>
+
+            <div class="col-4">
+                <div class="card" style="width: 25rem;">
+                    <div class="card-header bg-success text-black" style="padding: 4%">
+                        <h3 class="card-title">Contact Us</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text" style="text-align: center;">
+                            CSMT station, South Mumbai, India
+                            <br>
+                            Phone: 9876543210
+                            <br>
+                            Email: info@stxavier.com
+                        </div>
+                        <!-- Google Map -->
+                        <div>
+                            <iframe style="width: 100%; height: 400px;"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d611.7421930680346!2d72.83136676765247!3d18.942822620339257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b870ba222b0b%3A0xa35fb09925b0951d!2sSt.%20Xavier&#39;s%20College%20(Autonomous)!5e0!3m2!1sen!2sin!4v1765383107386!5m2!1sen!2sin"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+
+                            </iframe>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
